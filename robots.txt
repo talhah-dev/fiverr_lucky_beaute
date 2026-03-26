@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+# Replace https://your-domain.com with your final live domain before launch
+Sitemap: https://your-domain.com/sitemap.xml
