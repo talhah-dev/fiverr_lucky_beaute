@@ -8,7 +8,8 @@ if (bottomToTopScroll) {
   bottomToTopScroll.innerHTML = `
     <div
       id="toTopBtn"
-      class="fixed bottom-5 right-5 z-40 flex h-12 w-12 translate-y-4 cursor-pointer items-center justify-center rounded-full bg-pink-300 text-white shadow-lg opacity-0 transition-all duration-500 pointer-events-none hover:bg-pink-400"
+      class="fixed bottom-5 right-5 z-40 flex h-12 w-12 translate-y-4 cursor-pointer items-center justify-center rounded-full text-white shadow-lg opacity-0 transition-all duration-500 pointer-events-none"
+      style="background-color: #e4bfb6;"
       aria-label="Revenir en haut"
     >
       <i class="fa-solid fa-angle-up"></i>
